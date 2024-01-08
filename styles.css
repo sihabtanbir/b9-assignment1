@@ -269,3 +269,39 @@ p{
         border-radius: 0px 50px 50px 0px;
         border:0;
      }
+
+     /* footer section  */
+
+     footer{
+        background: #070211;
+        padding: 0 100px;
+     }
+     .footer-contact{
+        display: flex;
+        justify-content: space-between;
+     }
+     .contact-address p{
+        color: white;
+     }
+     .contact-address {
+        padding: 100px 150px;
+     }
+
+     .footer-socialbar{
+        text-align: center;
+        padding: 20px;
+        border-top: 1px solid #333;
+        border-bottom: 1px solid #333;
+     }
+     .footer-socialbar img{
+        height: 64px;
+        width: 64px;
+     }
+     .footer-rights{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .footer-rights p{
+        color: white;
+    }
