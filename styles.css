@@ -1,0 +1,183 @@
+/* common  styles  */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   
+}
+section{
+    max-width: 1320px;
+    margin: 20px auto;
+    
+}
+a{
+    text-decoration: none;
+}
+
+/* banner section  */
+
+.banner{
+    height: 600px;
+    background-image: url("resources/Banner\ Image.png");
+}
+.banner p{
+    padding-top: 150px;
+    color: #fff; 
+    text-align: center;
+    font-size: 32px;
+    font-family: Merriweather;
+    text-shadow: 2px 2px #000000;
+}
+.banner h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    text-shadow: 2px 2px #000000;
+    }
+
+    /* offer  section  */
+
+    .offer h2{
+        color: #f00;
+        text-align: center;
+        font-size: 88px;
+        font-family: Inter;
+        padding-top: 20px;
+    }
+    .offer p{
+        color: #F00;
+        text-align: center;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .offer h3{
+        color: #070211;
+        text-align: center;
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 700;     
+    }
+    .offer img{
+        width: 800px;
+        height: 500px;
+        display: block;
+        margin: 0 auto;
+       
+    }
+
+    /* welcome section  */
+    .welcome{
+        
+        background-image: url(resources/Vectorrr.png), url(resources/Group\ 70.png);
+        height: 600px;
+        background-position: right bottom, left top;
+        background-repeat: no-repeat, repeat;
+    }
+    .welcome-content{
+        padding-left: 100px;
+        padding-top: 150px;
+    }
+    .welcome h2{
+        color: #FFF;
+        font-family: Merriweather;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 88px; /* 137.5% */
+        letter-spacing: 7.04px;
+     }
+     .welcome p{
+        color: rgba(255, 255, 255, 0.80);
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+     }
+     .welcome a{
+        color: #FFF;
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-shadow: 2px 2px #000000;
+        padding-top: 5px;
+     }
+     /* shedule section  */
+
+     .shedule{
+        height: 480px;
+        background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+        
+
+     }
+     .shedule-content{
+        text-align: center;
+        padding-top: 10%;
+     }
+     .shedule-content span{
+        color: red;
+     }
+     .shedule-content button{
+        background: #f00;
+        text-align: center;
+        font-family: Inter;
+        border: 0;
+        padding: 3px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+     }
+     .shedule-content button a{
+        color: #fff;
+    }
+
+    /* best offer section  */
+
+    .best-offer{
+        display: flex;
+
+    }
+    .best-column{
+        width: 33%;
+        padding: 10px;
+    }
+    .best-column h2{
+        color: #070211;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: capitalize;
+     }
+     .best-column h3{
+        color: #F00;
+        text-align: center;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+     }
+     .best-column span{
+        color: #F00;
+     }
+     .best-column .happy{
+        height: 140px;
+        width: 140px;
+     }
+     .best-star{
+        border-radius: 50p%;
+        border: 15px solid white;
+        stroke: 1px red; 
+     }
