@@ -226,3 +226,46 @@ p{
    
     
      }
+
+     /* subscriber section  */
+     .subscriber{
+        height: 600px;
+        background:rgba(255, 0, 0, 0.05);
+     }
+     .subscriber-content{
+        text-align: center;
+        padding: 150px;
+     }
+     .subscriber img{
+        height:150px;
+        width: 150px;
+
+     }
+     .subscriber h2{
+        color: #070211;
+        text-align: center;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: capitalize;
+     }
+     .subscriber form{
+        margin-top: 20px;
+     }
+     .subscriber input{
+        padding: 10px;
+        border:0;
+        font-size: 16px;
+        border-radius: 50px 0px 0px 50px;
+       
+     }
+     .subscriber button{
+        background: red;
+        padding: 12px 20px;
+        font-size: 12px;
+        color: white;
+        border-radius: 0px 50px 50px 0px;
+        border:0;
+     }
