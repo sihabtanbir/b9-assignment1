@@ -18,6 +18,9 @@ section{
 a{
     text-decoration: none;
 }
+p{
+    color: rgba(7, 2, 17, 0.60);
+}
 
 /* banner section  */
 
@@ -180,4 +183,46 @@ a{
         border-radius: 50p%;
         border: 15px solid white;
         stroke: 1px red; 
+     }
+
+
+     /* awesome-portfolio section  */
+     .awesome-portfolio h4{
+        color: #F00;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+     }
+     .awesome-portfolio h2{
+        color: #070211;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 60px;
+        text-transform: capitalize;
+     }
+     .awesome-portfolio p{
+        padding: 0px 0 20px 0;
+     }
+     .gift-product{
+        display: inline-block;
+       
+     }
+     .gift-product img{
+        display: inline-block;
+        width: 33%;
+        height: 450px;
+        border-radius: 16px;
+       
+        opacity: 1;
+        transition: .3s ease-in-out;
+     }
+     .gift-product img:hover{
+        
+        opacity: .7;
+   
+    
      }
