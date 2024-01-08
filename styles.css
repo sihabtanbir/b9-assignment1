@@ -321,6 +321,13 @@ p{
      }
      .contact-address p{
         color: white;
+        line-height: 20px;
+     }
+     .contact-address img{
+         height: 12px;
+         width: 12px;
+         padding-right: 7px;
+         padding-top: 2px;
      }
      .contact-address {
         padding: 100px 150px;
